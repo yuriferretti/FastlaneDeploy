@@ -1,11 +1,9 @@
 language: objective-c 
-cache:
- - bundler 
+install: gem install fastlane 
 osx_image: xcode6.4 
 xcode_project: FastlaneDeployTest.xcodeproj 
 xcode_scheme: FastlaneDeployTest
 xcode_sdk: iphonesimulator8.4
 
 script:
- - gem install fastlane
  - fastlane test 
