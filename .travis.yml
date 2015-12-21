@@ -1,4 +1,6 @@
-language: objective-c  
+language: objective-c 
+cache:
+ - bundler 
 osx_image: xcode6.4 
 xcode_project: FastlaneDeployTest.xcodeproj 
 xcode_scheme: FastlaneDeployTest
