@@ -7,5 +7,4 @@ xcode_scheme: FastlaneDeployTest
 xcode_sdk: iphonesimulator8.4
 
 script:
- gem install fastlane
  fastlane test 
