@@ -33,7 +33,7 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    scan(clean: true)
+    scan(clean: true, xcargs: "GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES")
   end
 
   desc "Submit a new Beta Build to Apple TestFlight"

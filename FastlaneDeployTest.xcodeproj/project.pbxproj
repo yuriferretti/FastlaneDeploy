@@ -411,6 +411,7 @@
 				600BC7141C28679F008F3430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		600BC7151C28679F008F3430 /* Build configuration list for PBXNativeTarget "FastlaneDeployTestTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				600BC7171C28679F008F3430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

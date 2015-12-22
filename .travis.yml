@@ -6,4 +6,6 @@ xcode_scheme: FastlaneDeployTest
 xcode_sdk: iphonesimulator8.4
 
 script:
- - fastlane test 
+ - fastlane test
+after_success:
+- bash <(curl -s https://codecov.io/bash) 
